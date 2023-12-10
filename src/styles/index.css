@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  
+      
+    font-family: 'Poppins', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-height: 100vh;
+    background: linear-gradient(to bottom right,#002c2c, #2b5757);
+    color: #E0E0E0;
+    
+  }
+
+  ::-webkit-scrollbar {
+    display:none;
+}
+
+  a {
+    color: #ffffff;
+  }
+  
+  a:hover {
+    color: #77CDD9;
+  }
+  
+  .error {
+    color: #FF5555;
+  }
+  
+  .success {
+    color: #4CAF50;
+  }
+  
+  hr, .divider {
+    border-color: #1A1A1A;
+  }
+
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  h2 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 20px;
+  }
+
+.page-content {
+  padding: 20px;
+  min-height: 80vh;
+}
+
+
+
+
+
+

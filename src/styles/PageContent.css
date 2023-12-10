@@ -1,0 +1,13 @@
+/* CSS for initial state */
+.page-content {
+    opacity: 0;
+    transform: translateY(20px); /* Optional: slide up slightly */
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  /* CSS for visible state */
+  .page-content.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
